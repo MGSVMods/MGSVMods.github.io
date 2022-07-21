@@ -15,18 +15,36 @@
 			});
 		</script>
 		<script>
+			var modList;
+		
 			$.getJSON( "/modlist.json", function( data ) {
-				$.each( data, function( key, value ) {
-					$("#modlist").append("<div class=\"col-3 themed-grid-col\">" +
-					"<div><strong>" + value["title"] + "</strong></div>" +
-					"<div><img src=\"" + value["image"] + "\" alt=\"\" style=\"width:100%;\"></div>" +
-					"<div><strong>Author</strong>: " + value["author"] + "</div>" +
-					"<div><strong>Date</strong>: " + value["date"] + "</div>" +
-					"<div>" + value["short_desc"] + "</div>" + 
-					"<div><a href=\"" + value["download"] + "\"><button type=\"button\" class=\"btn btn-success\">Download</button></a></div>" +
+				modList = data
+			})
+			.done(function(test){
+				for(let i = 0; i < test.length; i++)
+				{
+					$("#modlist").append("<div class=\"col-3 themed-grid-col\" style=\"height:500px;\">" +
+					"<div><strong>" + modList[i].title + "</strong></div>" +
+					"<div><img src=\"" + modList[i].image + "\" alt=\"\" style=\"width:100%; aspect-ratio:16/9; \"></div>" +
+					"<div><strong>Author</strong>: " + modList[i].author + "</div>" +
+					"<div><strong>Date</strong>: " + modList[i].date + "</div>" +
+					"<div>" + modList[i].short_desc + "</div>" + 
+					"<div><button type=\"button\" class=\"btn btn-success\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\" onClick=\"setModalData(" + i + ")\">Details</button></div>" +
 					"</div>");
-				});
+				}
 			});
+			
+			function setModalData(idx)
+			{
+				$("#id-modal-title").empty();
+				$("#id-modal-title").append(modList[idx].title);
+				$("#id-modal-body").empty();
+				$("#id-modal-body").append("<div><img src=\"" + modList[idx].image + "\" alt=\"\" style=\"width:100%;\"></div>" +
+				"<div>" + modList[idx].long_desc + "</div>");
+				$("#id-modal-footer").empty();
+				$("#id-modal-footer").append("<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>" +
+				"<a href=\"" + modList[idx].download + "\"><button id=\"id-modal-download\" type=\"button\" class=\"btn btn-primary\">Download</button></a>");
+			}
 		</script>
 	
 		<title>Mod List</title>
@@ -38,6 +56,26 @@
 			<div class="container">
 				<div id="modlist" class="row mb-3 text-center"></div>
 			</div>
+			
+			<!-- Modal -->
+			<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 id="id-modal-title" class="modal-title" id="staticBackdropLabel">Modal title</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div id="id-modal-body" class="modal-body">
+							...
+						</div>
+						<div id="id-modal-footer" class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Download</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</main>
 	</body>
 </html>

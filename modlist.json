@@ -1,5 +1,32 @@
 [
 	{
+		"title": "Mission 51 Uncut (April Fools)",
+		"image": "https://cdn.discordapp.com/attachments/367770314182098945/429828570958004244/Untitled.png",
+		"author": "Chelly and BobDoleOwndU",
+		"date": "2018-04-01",
+		"download": "https://drive.google.com/file/d/1Z-qOsMXW-OK0g9wf5rOHvOR8E8TnLbuh/view?usp=sharing",
+		"short_desc": "Reintegrates Mission 51 into the main game.",
+		"long_desc": "Finally, after a year of hard work, @BobDoleOwndU and I are proud to present Mission 51 Uncut! This simple Snakebite file reactivates the long thought lost Kingdom of the Flies mission in the game! Simply install this Snakebite file (it might be incompatible with mods that change the menus, this is because it has to add a new entry to the list), and select the mission like you would any other. Please enjoy it, and report any bugs to Bob or I!"
+	},
+	{
+		"title": "FIM-92A Stinger Over Killer Bee",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/432996037599166465/mgsvtpp_2018-04-09_15-04-16-355.png",
+		"author": "E3245",
+		"date": "2018-04-09",
+		"download": "https://drive.google.com/file/d/1zSxiESI59RGDb4bvsxpQ_9N7tXywFL6q/view?usp=sharing",
+		"short_desc": "FIM-92A Stinger Over Killer Bee: Replaces the Killer Bee with the FIM-92A from Modern Warfare Remastered.",
+		"long_desc": "FIM-92A Stinger Over Killer Bee: Replaces the Killer Bee with the FIM-92A from Modern Warfare Remastered."
+	},
+	{
+		"title": "Real Weapon Mod",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/489295357847666703/20180413033201_1.jpg",
+		"author": "E3245",
+		"date": "2018-09-12",
+		"download": "https://drive.google.com/file/d/1rmyCYdU_cuNNg21d6_K4xNBzxiWmS3_0/view?usp=sharing",
+		"short_desc": "This mod replaces the following weapons:<br/>-Dragunov over Bambetov SV CS<br/>-MP5 over MACHT 37 CS<br/>-M16A2 over MRS-4 CS",
+		"long_desc": "<image src=\"https://cdn.discordapp.com/attachments/364178018723168256/489295355557707776/20180412163001_1.jpg\" style=\"width:100%;\"/><image src=\"https://cdn.discordapp.com/attachments/364178018723168256/489295625943384064/mgsvtpp_2018-04-12_09-59-24-204.png\" style=\"width:100%;\"/><image src=\"https://cdn.discordapp.com/attachments/364178018723168256/489295630594736130/mgsvtpp_2018-04-12_10-10-27-268.png\" style=\"width:100%;\"/>This mod replaces the following weapons:<br/><br/>-Dragunov over Bambetov SV CS<br/>-MP5 over MACHT 37 CS<br/>-M16A2 over MRS-4 CS<br/><br/>Notes:<br/>-Does not replace any of the Chimera weapons<br/><br/>Credits:<br/>Infinity Ward/Raven Software/Activision for developing and publishing Modern Warfare Remastered respectively.<br/>Stoy79 (Heffy) for creating the AKs and AR15s that were used in his Fallout New Vegas mod.<br/><br/>E3245 for porting and assembling the weapons.<br/><br/>The team behind FMDL Studio V2.<br/><br/>And lastly, you, for downloading this mod!"
+	},
+	{
 		"title": "MGS1 Smash Snake",
 		"image": "https://cdn.discordapp.com/attachments/364178148444864513/540970012492562439/287700_20190202005653_1.png",
 		"author": "RLC, Cuba and Shigu",
@@ -18,6 +45,42 @@
 		"long_desc": "Mods... mods never change....<br/><br/>Replaces Snake's head with a power armor helmet."
 	},
 	{
+		"title": "RPG-7",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/562334900670300201/20190401123924_1.jpg",
+		"author": "E3245",
+		"date": "2019-04-01",
+		"download": "https://drive.google.com/file/d/1RYtgGIV4vr9w9dMx9mxdQ2s_XyfpiUuU/view?usp=sharing",
+		"short_desc": "This mod replaces the Grom-11 with the RPG-7 rocket launcher from Call of Duty 4: Modern Warfare Remastered.",
+		"long_desc": "<image src=\"https://cdn.discordapp.com/attachments/364178018723168256/562334903321100364/20190401123926_1.jpg\" style=\"width:100%;\"/><image src=\"https://cdn.discordapp.com/attachments/364178018723168256/562334905762054174/20190401124142_1.jpg\" style=\"width:100%;\"/><image src=\"https://cdn.discordapp.com/attachments/364178018723168256/562334906471022724/20190401124551_1.jpg\" style=\"width:100%;\"/>This mod replaces the Grom-11 with the RPG-7 rocket launcher from Call of Duty 4: Modern Warfare Remastered.<br/><br/>Notes:<br/>-Does not replace the NPC (CS) or the cutscene version of the Grom-11<br/><br/>Credits:<br/>Infinity Ward/Raven Software/Activision for developing and publishing Modern Warfare Remastered respectively.<br/><br/>E3245 for ripping and porting the RPG-7 to MGSV.<br/><br/>The team behind FMDL Studio V2 and FNCPTool.<br/><br/>And lastly, you, for downloading this mod!<br/><br/>Version 1.000:<br/>-Initial Release"
+	},
+	{
+		"title": "Freeman r4",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/612478648880070686/9692e0c641.png",
+		"author": "Cuba",
+		"date": "2019-08-17",
+		"download": "https://drive.google.com/file/d/1LGgNus0yVBolG1mSQNjSwqKl0CPgPbfr/view?usp=sharing",
+		"short_desc": "Rise and Shine Snake..<br/>Replaces MGS1 Snake Outfit",
+		"long_desc": "Replaces Solid Snake with HL1 Gordon Freeman"
+	},
+	{
+		"title": "2B Standalone Staff",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/667483658076028938/unknown.png",
+		"author": "Cuba",
+		"date": "2020-01-16",
+		"download": "https://drive.google.com/file/d/14wAZXGvEWCyjTcnhNZWMhiG-k_Ed8vxZ/view?usp=sharing",
+		"short_desc": "This mod adds 2B as a Standalone Staff!<br/>she should unlock after you complete any mission if you don't already have her.",
+		"long_desc": "This mod adds 2B as a Standalone Staff!<br/>she should unlock after you complete any mission if you don't already have her.<br/><br/>This would have been impossible without HUGE help from tinmantex, CapLag, BobDoleOwndU and so many more fine folks from the Modders Heaven Discord Server!<br/><br/>I LOVE ALL OF YOU!"
+	},
+	{
+		"title": "Socom r1",
+		"image": "https://cdn.discordapp.com/attachments/364177950805065732/682091955248955428/unknown.png",
+		"author": "Cuba",
+		"date": "2020-02-26",
+		"download": "https://drive.google.com/file/d/1B5SI5y_raP3fcbBtpipw3heuoUjhD8GP/view?usp=sharing",
+		"short_desc": "\"Just like old times..\"",
+		"long_desc": "\"Just like old times..\"<br/>Replaces Adam-ska. Slide and Trigger move too."
+	},
+	{
 		"title": "Isaboom",
 		"image": "https://cdn.discordapp.com/attachments/364178018723168256/694853557706555422/Isaboom.png",
 		"author": "BobDoleOwndU",
@@ -27,6 +90,96 @@
 		"long_desc": "A claymore can be a friend too!<br/><br/>Replaces claymores with Isabelle from Animal Crossing."
 	},
 	{
+		"title": "Skull Mask (Die-Hardman)",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/696060676107534376/dhmMask.png",
+		"author": "JinMar",
+		"date": "2020-04-04",
+		"download": "https://drive.google.com/file/d/1ERVBddJ3O_2W4yZz3uElr-hmOf7Cfk-F/view?usp=sharing",
+		"short_desc": "Kaz, I'm already a demon",
+		"long_desc": "Kaz, I'm already a demon.<br/><br/>Replaces the bandana."
+	},
+	{
+		"title": "Not So Skullface Die-Hardman Edition",
+		"image": "https://i.imgur.com/rOfLJ8L.png",
+		"author": "Paul-Scott",
+		"date": "2020-04-11",
+		"download": "https://drive.google.com/file/d/1_vO_hFCXE1ghRWa1QIF_2TllBIzHpaXl/view?usp=sharing",
+		"short_desc": "This Give Skull Face A More Normal Face With The DieHardman Mask From Death Stranding. Also Has A Retexture On His Suit",
+		"long_desc": "This Give Skull Face A More Normal Face With The DieHardman Mask<br/>From Death Stranding.<br/>Also Has A Retexture On His Suit<br/><br/>*Hat Is Gone [Due To Extreme Clipping]<br/><br/>**Credits JinMar For Use Of The Mask"
+	},
+	{
+		"title": "Not So Skullface Higgs Edition",
+		"image": "https://i.imgur.com/rcSQz9L.png",
+		"author": "Paul-Scott",
+		"date": "2020-04-15",
+		"download": "https://drive.google.com/file/d/1TOsyDMOQVRx4NQnJQvFebYlx3IrbmjnS/view?usp=sharing",
+		"short_desc": "This Give Skull Face A More Normal Face With The Higgs Mask From Death Stranding. Also Has A Retexture On His Suit",
+		"long_desc": "This Give Skull Face A More Normal Face With The Higgs Mask<br/>From Death Stranding.<br/>Also Has A Retexture On His Suit<br/><br/>*Hat Has Some Minor Clipping<br/><br/>**Credits JinMar For Use Of The Mask"
+	},
+	{
+		"title": "Skull Mask (Higgs)",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/699900573926948964/HiggsMask.png",
+		"author": "JinMar",
+		"date": "2020-04-15",
+		"download": "https://drive.google.com/file/d/1oKmS_Rnp3oq7t334fomFH_LPR7O1xXwu/view?usp=sharing",
+		"short_desc": "Kaz, I'm already a demon",
+		"long_desc": "Kaz, I'm already a demon.<br/><br/>Replaces the bandana."
+	},
+	{
+		"title": "PS4 Buttons",
+		"image": "",
+		"author": "Holdfing",
+		"date": "2020-04-17",
+		"download": "https://drive.google.com/file/d/1GnjBpedytYejgnF2ie5ooAwSkuT5Ss2E/view?usp=sharing",
+		"short_desc": "This mod replaces the default Xbox360 button icons to DualShock4 native button icons. It also adds the correct controller image into the game's menu.",
+		"long_desc": "This mod replaces the default Xbox360 button icons to DualShock4 native button icons. It also adds the correct controller image into the game's menu."
+	},
+	{
+		"title": "Chief Weapon Camo Pack",
+		"image": "",
+		"author": "ExplosiveResults",
+		"date": "2020-04-24",
+		"download": "https://drive.google.com/file/d/1UUgONat-MPj1t0xk6oKXf1CYtWdpc0jC/view?usp=sharing",
+		"short_desc": "Replaces the first 24 weapons camoflauge patterns.",
+		"long_desc": "Replaces the first 24 weapons camoflauge patterns.<br/><br/>A custom mod made with Glecas Weapons Color Mod Creator"
+	},
+	{
+		"title": "Cuba's Quiet Redesign",
+		"image": "https://i.imgur.com/mgyj3Cl.jpg",
+		"author": "Cuba",
+		"date": "2020-08-13",
+		"download": "https://drive.google.com/file/d/1mRBQ7W7tjYtQjFx3A3Gv_Vh-pJejZdNE/view?usp=sharing",
+		"short_desc": "Put some damn clothes on!",
+		"long_desc": "Put some damn clothes on!<br/><br/>Gives Quiet more practical gear, replaces her playable FOB model.<br/><br/>Inspired by daften_23<br/>Made for the hell of it, don't expect it to be perfect but its far from broken :)<br/><br/>You still need the mail file from <a href=\"https://www.nexusmods.com/metalgearsolidvtpp/mods/771\">here</a>."
+	},
+	{
+		"title": "Shadow Press Kit Title Mod",
+		"image": "https://steamuserimages-a.akamaihd.net/ugc/1491208484973771479/E1A1102A62733DEF9C01DF6EA8F1D7B124A2EBD7/",
+		"author": "Cuba",
+		"date": "2020-08-17",
+		"download": "https://drive.google.com/file/d/1ejXdWTpGMGEs0BH87pVLetGQRxL8TzuI/view?usp=sharing",
+		"short_desc": "Replaces the title screen with a Shadow the Hedgehog themed version. (Does not include the Payday 2 outfit.)",
+		"long_desc": "Replaces the title screen with a Shadow the Hedgehog themed version."
+	},
+	{
+		"title": "Parasite Sprinting v1",
+		"image": "",
+		"author": "Shigu",
+		"date": "2020-09-30",
+		"download": "https://drive.google.com/file/d/1STVhaSYBAdKDCAAcaPcosoPsnKv9jKPG/view?usp=sharing",
+		"short_desc": "Skulls sprinting for the player when using the parasite suit.",
+		"long_desc": "Skulls sprinting for the player when using the parasite suit.<br/><br/>Credits to Bl1zz4rd for the idea."
+	},
+	{
+		"title": "Shneaky Shuit",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/813082684984918046/unknown.png",
+		"author": "MoltenBow",
+		"date": "2021-02-21",
+		"download": "https://drive.google.com/file/d/1ZlsB1_UZBY-lLZGq1hp2WxWC0v4M04Th/view?usp=sharing",
+		"short_desc": "Recolour of caplag's Smash Snake port to be more accurate to the colours of the MGS2 sneaking suit.",
+		"long_desc": "Recolour of caplag's Smash Snake port to be more accurate to the colours of the MGS2 sneaking suit."
+	},
+	{
 		"title": "YongYea",
 		"image": "https://cdn.discordapp.com/attachments/533156408586403840/827032426349068318/287700_20210331172411_1.png",
 		"author": "BobDoleOwndU, Chelly, and OldBoss",
@@ -34,6 +187,105 @@
 		"download": "https://drive.google.com/file/d/1--lWRMpxLRJo8o2tc36eE_dXZ4kIme2g/view?usp=sharing",
 		"short_desc": "Replaces the bandana with the Yongdana, replaces the Tiger Stripe camo with a Yong camo and changes the title screen to a Yong theme.",
 		"long_desc": "Replaces the bandana with the Yongdana, replaces the Tiger Stripe camo with a Yong camo and changes the title screen to a Yong theme."
+	},
+	{
+		"title": "The Lord of the Flies Abides b13 (April Fools)",
+		"image": "https://i.imgur.com/CCmLDB7.png",
+		"author": "caplag",
+		"date": "2021-04-01",
+		"download": "https://drive.google.com/file/d/1KpuA-1zJoaodmvd1cx-JythKn5YLMo24/view?usp=sharing",
+		"short_desc": "I can't believe it - we have restored the cut Episode 51!",
+		"long_desc": "<image src=\"https://i.imgur.com/8KthxCr.png\" style=\"width:100%;\"/>I can't believe it - we have restored the cut Episode 51!<br/>This file will restore the mission in its entirety to the best of our current abilities, and only requires Infinite Heaven!<br/>It's recommended that you don't skip the helicopter ride in this mission!<br/>Special thanks to @OldBoss for playtesting it!"
+	},
+	{
+		"title": "BDOU NVGs",
+		"image": "",
+		"author": "BobDoleOwndU and Your401kPlan",
+		"date": "2021-08-06",
+		"download": "https://drive.google.com/file/d/1txvHD8d02jA8mKW3te306Kh9RYDYMUzG/view?usp=sharing",
+		"short_desc": "Simple NVG mod that makes it so you wear NVGs when you have the bionic arm equipped.",
+		"long_desc": "Simple NVG mod that makes it so you wear NVGs when you have the bionic arm equipped.<br/><br/>Only caveat is that it's visible in first person and hard to use because of that. So until I figure out a workaround I'm just leaving it here so others see it as well"
+	},
+	{
+		"title": "Cap",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/877801652869009428/20210818223717_1.jpg",
+		"author": "Noieuh",
+		"date": "2021-08-19",
+		"download": "https://drive.google.com/file/d/1Elht8gEmMU0r2R9yNXaPadElRjrQq_Hk/view?usp=sharing",
+		"short_desc": "Replaces the DD shield with a vibranium disc based (Captain America's) shield. Experimental technology",
+		"long_desc": "<image src=\"https://cdn.discordapp.com/attachments/364178018723168256/877801671164579890/20210818223828_1.jpg\" style=\"width:100%;\"/>Replaces the DD shield with a vibranium disc based (Captain America's) shield. Experimental technology"
+	},
+	{
+		"title": "MGO Hair for Avatar Hair Slot 2",
+		"image": "https://cdn.discordapp.com/attachments/364177950805065732/884024609442267157/unknown.png",
+		"author": "BatuTH",
+		"date": "2021-09-05",
+		"download": "https://drive.google.com/file/d/1spU5IF_bsZ1g8Ppbk7ya5GxDAY4DtZNV/view?usp=sharing",
+		"short_desc": "It is in beta state so you may encounter shader bugs and all but it'll be handled in the future. Hope you enjoy.",
+		"long_desc": "It is in beta state so you may encounter shader bugs and all but it'll be handled in the future. Hope you enjoy.<br/><br/>Note: The colour of the hair is brown and sadly the color cannot be changed through the customization system, I'll make the mod better when I figure out the .fv2 stuff in the future."
+	},
+	{
+		"title": "Cubehead Steve",
+		"image": "",
+		"author": "seA",
+		"date": "2021-09-05",
+		"download": "https://drive.google.com/file/d/1rgrQi5_5-cq8kArRpUkex4wTrAnuua1j/view?usp=sharing",
+		"short_desc": "Replaces Snake's head with Minecraft Steve's head.",
+		"long_desc": "Replaces Snake's head with Minecraft Steve's head.<br/><br/>it's literally just a cube<br/>thanks snow aka Wolbachia aka young_snow#9526"
+	},
+	{
+		"title": "TPP Railgun",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/885646626805387334/Naamloos.jpg",
+		"author": "JimLaFleur",
+		"date": "2021-09-09",
+		"download": "https://drive.google.com/file/d/1jOfoIlAduHJ1vOMAL3Bp5y53T4e9BrxF/view?usp=sharing",
+		"short_desc": "replaces the molotok with the iconic Railgun from previous mgs games.",
+		"long_desc": "replaces the molotok with the iconic Railgun from previous mgs games.<br/><br/>special thanks to<br/>Ventos for explaining me on vfx modding.<br/>Sofisticado/phil cassidy for explaning me with gun stat editing.<br/>all people from modders heaven who made mgs modding possible."
+	},
+	{
+		"title": "DISPATCH",
+		"image": "",
+		"author": "seAWeed",
+		"date": "2021-09-13",
+		"download": "https://drive.google.com/file/d/1bHUVRrgjCK79vvQEbHhomSzY47iIgqAa/view?usp=sharing",
+		"short_desc": "mods which change the dispatch missions rate as the 3 following<br/>-dead rate is now 0%<br/>-dead rate is 0% and the success rate is 100%<br/>-dead rate is 0%, success rate is 100% and time to finish them is 0 hour/minute/second",
+		"long_desc": "mods which change the dispatch missions rate as the 3 following<br/>-dead rate is now 0%<br/>-dead rate is 0% and the success rate is 100%<br/>-dead rate is 0%, success rate is 100% and time to finish them is 0 hour/minute/second<br/>but the first two are time consuming to test so I'm releasing here first so you guys can try it out, tag me whenever you find something is wrong (don't DM me tho, sorry if that bothers you) and I tested the third one myself but try it to see if there's anything wrong<br/>thanks if you can help"
+	},
+	{
+		"title": "Farol",
+		"image": "",
+		"author": "Ventos",
+		"date": "2021-09-22",
+		"download": "https://drive.google.com/file/d/1Amb0XVr9gffZzvy6J9Tgjy9Iz-rANh3Y/view?usp=sharing",
+		"short_desc": "Hi there. Here the LightHouseMap level. I wont work on it anymore and not publish at Nexus. But I would like to share it for anyone to look around or even take it byself to work whatever think. I leave full permission to do anything with it. locationId=122, locationName=\"FARO\".",
+		"long_desc": "Hi there. Here the LightHouseMap level. I wont work on it anymore and not publish at Nexus. But I would like to share it for anyone to look around or even take it byself to work whatever think. I leave full permission to do anything with it. locationId=122, locationName=\"FARO\"."
+	},
+	{
+		"title": "FOXY",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/891169420397916181/unknown.png",
+		"author": "seAWeed",
+		"date": "2021-09-24",
+		"download": "https://drive.google.com/file/d/1gWly1Pyuu9sJC5PIWadqAnKUIMad5GTy/view?usp=sharing",
+		"short_desc": "horribly rigged cyborg ninja foxy from five nights at freddy",
+		"long_desc": "horribly rigged cyborg ninja foxy from five nights at freddy"
+	},
+	{
+		"title": "RE: Apocalypse UBCS Outfit",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/917216873064575016/9019ab2111813cb4cc027524fe0b5577--resident-evil-umbrella-corporation.png",
+		"author": "E2Parajumper",
+		"date": "2021-12-05",
+		"download": "https://drive.google.com/file/d/1unb-FR3Hq-QMlMTha3KttFMGgmhEpbUK/view?usp=sharing",
+		"short_desc": "Replaces Sneaking Suit",
+		"long_desc": "Replaces Sneaking Suit"
+	},
+	{
+		"title": "Captain Avenger Suit",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/917983431965679616/263542073_1025664791341372_4392408998697750299_n.png",
+		"author": "Vsnake0929",
+		"date": "2021-12-07",
+		"download": "https://drive.google.com/file/d/1y8ZwNOU7TnKMGPd9ntiVvF7UhYeFc-oT/view?usp=sharing",
+		"short_desc": "i can do this all day,replace leather jacket ",
+		"long_desc": "i can do this all day,replace leather jacket "
 	},
 	{
 		"title": "Venomegumin",

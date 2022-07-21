@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/styles.css" rel="stylesheet">
+	
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/jquery-3.6.0.min.js"></script>
+		<script>
+			$(function () {
+				$("#header").load("/header.html");
+			});
+		</script>
+		<script>
+			$.getJSON( "/modlist.json", function( data ) {
+				$.each( data, function( key, value ) {
+					$("#modlist").append("<div class=\"col-3 themed-grid-col\">" +
+					"<div><strong>" + value["title"] + "</strong></div>" +
+					"<div><img src=\"" + value["image"] + "\" alt=\"\" style=\"width:100%;\"></div>" +
+					"<div><strong>Author</strong>: " + value["author"] + "</div>" +
+					"<div><strong>Date</strong>: " + value["date"] + "</div>" +
+					"<div>" + value["short_desc"] + "</div>" + 
+					"<div><a href=\"" + value["download"] + "\"><button type=\"button\" class=\"btn btn-success\">Download</button></a></div>" +
+					"</div>");
+				});
+			});
+		</script>
+	
+		<title>Mod List</title>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<main>
+			<div class="container">
+				<div id="modlist" class="row mb-3 text-center"></div>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+[
+	{
+		"title": "MGS1 Smash Snake",
+		"image": "https://cdn.discordapp.com/attachments/364178148444864513/540970012492562439/287700_20190202005653_1.png",
+		"author": "RLC, Cuba and Shigu",
+		"date": "2019-02-01",
+		"download": "https://drive.google.com/file/d/1G_vq5GdDer-GAB9RXoeTz2My7tPvlq5S/view?usp=sharing",
+		"short_desc": "Age hasn't slowed you down one bit!",
+		"long_desc": "Head from Shigu's MGS4 Snake port, presumably from MrGameboy20XX's rip.<br/>Body ripped by ckthesorrow<br/>Original base kitbashed by Cuba<br/>Vest mesh and texture from Smash 2<br/>Face normals by FrankensteinKappa<br/>Texture samples from UE4 remake museum of Metal Gear Solid<br/><br/>Special thanks to TrikzMe for the specular textures."
+	},
+	{
+		"title": "Fallout Gear Solid",
+		"image": "https://cdn.discordapp.com/attachments/533156408586403840/562176110729887744/Untitled85.png",
+		"author": "BobDoleOwndU",
+		"date": "2019-04-01",
+		"download": "https://drive.google.com/file/d/1vw2iYfSTiKyuaFWSkwAeqUrtX5ii6hlh/view?usp=sharing",
+		"short_desc": "Mods... mods never change....<br/><br/>Replaces Snake's head with a power armor helmet.",
+		"long_desc": "Mods... mods never change....<br/><br/>Replaces Snake's head with a power armor helmet."
+	},
+	{
+		"title": "Isaboom",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/694853557706555422/Isaboom.png",
+		"author": "BobDoleOwndU",
+		"date": "2020-04-01",
+		"download": "https://drive.google.com/file/d/1-uMOfqqsbyamL9tL7YjTDMiXuUM6TNIQ/view?usp=sharing",
+		"short_desc": "Claymores can be friends too!",
+		"long_desc": "A claymore can be a friend too!<br/><br/>Replaces claymores with Isabelle from Animal Crossing."
+	},
+	{
+		"title": "YongYea",
+		"image": "https://cdn.discordapp.com/attachments/533156408586403840/827032426349068318/287700_20210331172411_1.png",
+		"author": "BobDoleOwndU, Chelly, and OldBoss",
+		"date": "2021-04-01",
+		"download": "https://drive.google.com/file/d/1--lWRMpxLRJo8o2tc36eE_dXZ4kIme2g/view?usp=sharing",
+		"short_desc": "Replaces the bandana with the Yongdana, replaces the Tiger Stripe camo with a Yong camo and changes the title screen to a Yong theme.",
+		"long_desc": "Replaces the bandana with the Yongdana, replaces the Tiger Stripe camo with a Yong camo and changes the title screen to a Yong theme."
+	},
+	{
+		"title": "Venomegumin",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/978903398172741674/Untitled92.png",
+		"author": "BobDoleOwndU",
+		"date": "2022-05-25",
+		"download": "https://drive.google.com/file/d/1AvXNy9eMYOowNsUFmJsqow0mdR8SfE_3/view?usp=sharing",
+		"short_desc": "Kaz(uma), I'm already a (Crimson) Demon.",
+		"long_desc": "Kaz(uma), I'm already a (Crimson) Demon.\nReplaces the bandana with Megumin's hat."
+	}
+]

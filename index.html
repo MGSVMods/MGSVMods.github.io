@@ -16,24 +16,13 @@
 		</script>
 		<script>
 			var modList;
+			var results = [];
 		
 			$.getJSON( "/modlist.json", function( data ) {
 				modList = data
 			})
-			.done(function(test){
-				for(let i = 0; i < test.length; i++)
-				{
-					$("#modlist").append("<div class=\"col-3 themed-grid-col\" style=\"height:500px;position:relative;\">" +
-					"<div><strong>" + modList[i].title + "</strong></div>" +
-					"<div><img src=\"" + modList[i].image + "\" alt=\"\" style=\"width:100%; aspect-ratio:16/9; \"></div>" +
-					"<div style=\"text-align:left;\">" +
-					"<div><strong>Author</strong>: " + modList[i].author + "</div>" +
-					"<div><strong>Date</strong>: " + modList[i].date + "</div>" +
-					"<div>" + modList[i].short_desc + "</div>" +
-					"</div>" +
-					"<div style=\"position:absolute;width:100%;bottom:10px;\"><button type=\"button\" class=\"btn btn-success\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\" onClick=\"setModalData(" + i + ")\">Details</button></div>" +
-					"</div>");
-				}
+			.done(function(){
+				search();
 			});
 			
 			function setModalData(idx)
@@ -44,8 +33,91 @@
 				$("#id-modal-body").append("<div><img src=\"" + modList[idx].image + "\" alt=\"\" style=\"width:100%;\"></div>" +
 				"<div>" + modList[idx].long_desc + "</div>");
 				$("#id-modal-footer").empty();
-				$("#id-modal-footer").append("<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>" +
-				"<a href=\"" + modList[idx].download + "\"><button id=\"id-modal-download\" type=\"button\" class=\"btn btn-primary\">Download</button></a>");
+				$("#id-modal-footer").append("<button type=\"button\" class=\"btn btn-outline-secondary\" data-bs-dismiss=\"modal\">Close</button>" +
+				"<a href=\"" + modList[idx].download + "\"><button id=\"id-modal-download\" type=\"button\" class=\"btn btn-outline-success\">Download</button></a>");
+			}
+			
+			function search()
+			{
+				var searchTerm = $("#id-search").val();
+				var searchType = $("#id-search-type").val();
+				results = [];
+					
+				for(let i = 0; i < modList.length; i++)
+				{
+					switch(searchType)
+					{
+						case "0":
+							if(modList[i].title.toLowerCase().includes(searchTerm.toLowerCase()))
+							{
+								results.push(modList[i])
+							}
+							break;
+						case "1":
+							if(modList[i].author.toLowerCase().includes(searchTerm.toLowerCase()))
+							{
+								results.push(modList[i])
+							}
+							break;
+						case "2":
+							if(modList[i].short_desc.toLowerCase().includes(searchTerm.toLowerCase()))
+							{
+								results.push(modList[i])
+							}
+							break;
+						case "3":
+							if(modList[i].long_desc.toLowerCase().includes(searchTerm.toLowerCase()))
+							{
+								results.push(modList[i])
+							}
+							break;
+					}
+				}
+				
+				sort();
+			}
+			
+			function sort()
+			{
+				var sortValue = $("#id-sort").val();
+			
+				switch(sortValue)
+				{
+					case "0":
+						results.sort((a, b) => a.date.localeCompare(b.date));
+						break;
+					case "1":
+						results.sort((a, b) => b.date.localeCompare(a.date));
+						break;
+					case "2":
+						results.sort((a, b) => a.title.localeCompare(b.title));
+						break;
+					case "3":
+						results.sort((a, b) => b.title.localeCompare(a.title));
+						break;
+					case "4":
+						results.sort((a, b) => a.author.localeCompare(b.author));
+						break;
+					case "5":
+						results.sort((a, b) => b.author.localeCompare(a.author));
+						break;
+				}
+					
+				$("#modlist").empty();
+				
+				for(let i = 0; i < results.length; i++)
+				{
+					$("#modlist").append("<div class=\"col-3 themed-grid-col\" style=\"height:500px;position:relative;\">" +
+					"<div><strong>" + results[i].title + "</strong></div>" +
+					"<div><img src=\"" + results[i].image + "\" alt=\"\" style=\"width:100%; aspect-ratio:16/9; \"></div>" +
+					"<div style=\"text-align:left;\">" +
+					"<div><strong>Author</strong>: " + results[i].author + "</div>" +
+					"<div><strong>Date</strong>: " + results[i].date + "</div>" +
+					"<div>" + results[i].short_desc + "</div>" +
+					"</div>" +
+					"<div style=\"position:absolute;width:100%;bottom:10px;\"><button type=\"button\" class=\"btn btn-outline-warning\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\" onClick=\"setModalData(" + modList.indexOf(results[i]) + ")\">Details</button></div>" +
+					"</div>");
+				}
 			}
 		</script>
 	
@@ -61,6 +133,26 @@
 			</div>
 		
 			<div class="container">
+				<div style="margin-bottom: 10px;">
+					<div class="d-flex" role="search">
+						<input id="id-search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<select id="id-search-type" class="form-select" style="width:25%; margin-right: 10px;">
+							<option value="0">Title</option>
+							<option value="1">Author</option>
+							<option value="2">Short Description</option>
+							<option value="3">Long Description</option>
+						</select>
+						<button class="btn btn-outline-primary" onClick="search()" style="margin-right: 10px;">Search</button>
+						<select id="id-sort" class="form-select" onchange="sort()" style="width:25%;">
+							<option value="0">Ascending Release Date</option>
+							<option value="1">Descending Release Date</option>
+							<option value="2">Ascending Title</option>
+							<option value="3">Descending Title</option>
+							<option value="4">Ascending Author</option>
+							<option value="5">Descending Author</option>
+						</select>
+					</div>
+				</div>
 				<div id="modlist" class="row mb-3 text-center"></div>
 			</div>
 			

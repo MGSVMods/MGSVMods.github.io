@@ -55,7 +55,7 @@
 	},
 	{
 		"title": "Freeman r4",
-		"image": "https://cdn.discordapp.com/attachments/364178018723168256/612478648880070686/9692e0c641.png",
+		"image": "https://i.imgur.com/INfOOga.png",
 		"author": "Cuba",
 		"date": "2019-08-17",
 		"download": "https://drive.google.com/file/d/1LGgNus0yVBolG1mSQNjSwqKl0CPgPbfr/view?usp=sharing",
@@ -105,7 +105,7 @@
 		"date": "2020-04-11",
 		"download": "https://drive.google.com/file/d/1_vO_hFCXE1ghRWa1QIF_2TllBIzHpaXl/view?usp=sharing",
 		"short_desc": "This Give Skull Face A More Normal Face With The DieHardman Mask From Death Stranding. Also Has A Retexture On His Suit",
-		"long_desc": "This Give Skull Face A More Normal Face With The DieHardman Mask<br/>From Death Stranding.<br/>Also Has A Retexture On His Suit<br/><br/>*Hat Is Gone [Due To Extreme Clipping]<br/><br/>**Credits JinMar For Use Of The Mask"
+		"long_desc": "<image src=\"https://i.imgur.com/7FgFsOR.png\" style=\"width:100%;\"/>This Give Skull Face A More Normal Face With The DieHardman Mask<br/>From Death Stranding.<br/>Also Has A Retexture On His Suit<br/><br/>*Hat Is Gone [Due To Extreme Clipping]<br/><br/>**Credits JinMar For Use Of The Mask"
 	},
 	{
 		"title": "Not So Skullface Higgs Edition",
@@ -127,7 +127,7 @@
 	},
 	{
 		"title": "PS4 Buttons",
-		"image": "https://i.imgur.com/F21c4ED.png",
+		"image": "https://i.imgur.com/5AnMYzE.png",
 		"author": "Holdfing",
 		"date": "2020-04-17",
 		"download": "https://drive.google.com/file/d/1GnjBpedytYejgnF2ie5ooAwSkuT5Ss2E/view?usp=sharing",
@@ -136,7 +136,7 @@
 	},
 	{
 		"title": "Chief Weapon Camo Pack",
-		"image": "https://i.imgur.com/F21c4ED.png",
+		"image": "https://i.imgur.com/x56fOBP.png",
 		"author": "ExplosiveResults",
 		"date": "2020-04-24",
 		"download": "https://drive.google.com/file/d/1UUgONat-MPj1t0xk6oKXf1CYtWdpc0jC/view?usp=sharing",
@@ -163,7 +163,7 @@
 	},
 	{
 		"title": "Parasite Sprinting v1",
-		"image": "https://i.imgur.com/F21c4ED.png",
+		"image": "https://i.imgur.com/UekGqW1.png",
 		"author": "Shigu",
 		"date": "2020-09-30",
 		"download": "https://drive.google.com/file/d/1STVhaSYBAdKDCAAcaPcosoPsnKv9jKPG/view?usp=sharing",
@@ -475,5 +475,14 @@
 		"download": "https://drive.google.com/file/d/1wxo_aj3FZ5uTvhg62rlD99iSl6wI_K9I/view?usp=sharing",
 		"short_desc": "Light Fuse, Run Away.",
 		"long_desc": "Light Fuse, Run Away.<br/><br/><a href=\"https://youtu.be/j3tpBvvcTpY\">https://youtu.be/j3tpBvvcTpY</a><br/><br/>Replaces the battle dress.<br/><br/>(I'd make another \"I'm already a demon\" pun; but nothing can top the Megumin one.)"
+	},
+	{
+		"title": "Gravy Seal DCU retexture",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/1004678182701637662/unknown.png",
+		"author": "Kreeper",
+		"date": "2022-08-04",
+		"download": "https://drive.google.com/file/d/1S5NyFumFACBtQyRa8NAmMeaIUKrTH7UM/view?usp=sharing",
+		"short_desc": "Your401kPlan's Naval Boarding outfit retextured in DCU tricolor desert.",
+		"long_desc": "Your401kPlan's Naval Boarding outfit retextured in DCU tricolor desert."
 	}
 ]

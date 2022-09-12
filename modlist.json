@@ -475,5 +475,50 @@
 		"download": "https://drive.google.com/file/d/1S5NyFumFACBtQyRa8NAmMeaIUKrTH7UM/view?usp=sharing",
 		"short_desc": "Your401kPlan's Naval Boarding outfit retextured in DCU tricolor desert.",
 		"long_desc": "Your401kPlan's Naval Boarding outfit retextured in DCU tricolor desert."
+	},
+	{
+		"title": "ACC MGS3 Cargo",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/1005813991249022986/MGS3_Heli_6.png",
+		"author": "JinMar",
+		"date": "2022-08-07",
+		"download": "https://drive.google.com/file/d/1J-g312iWgGXUh_F1KRP2HlRQgB8Lo6jS/view?usp=sharing",
+		"short_desc": "MGS3DS Cargo (test). I didn't remove the floating pictures. Just realeasing it for people that want to check how to add a custom ACC model. Camera position might be determined by the bone position (I haven't really tested it).",
+		"long_desc": "MGS3DS Cargo (test). I didn't remove the floating pictures. Just realeasing it for people that want to check how to add a custom ACC model. Camera position might be determined by the bone position (I haven't really tested it)."
+	},
+	{
+		"title": "Forsaken Ruins",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/1010547542544621580/Metal_Gear_Solid_V_The_Phantom_Pain_Screenshot_2022.08.18_-_18.31.59.95.png",
+		"author": "RLC",
+		"date": "2022-08-14",
+		"download": "https://drive.google.com/file/d/1PH4NAgSsyJvSMBVxV3u-EEAKbnf54eBA/view?usp=sharing",
+		"short_desc": "Slightly better Forsaken Ruins but still with flat lighting at night and some relatively broken stuff left out (uncomment tpppacklist functions in f30025_ssav.lua if you want them back)",
+		"long_desc": "Slightly better Forsaken Ruins but still with flat lighting at night and some relatively broken stuff left out (uncomment tpppacklist functions in f30025_ssav.lua if you want them back)"
+	},
+	{
+		"title": "Sam Fisher:Ghost Recon Wildlands",
+		"image": "https://i.imgur.com/F21c4ED.png",
+		"author": "Zyzz",
+		"date": "2022-08-17",
+		"download": "https://drive.google.com/file/d/17JBJkJoyGnn1GwERvE-qYpiGlLq6ycor/view?usp=sharing",
+		"short_desc": "Sam Fisher from Ghost Recon Wildlands <br/>Replacing the parasite suit with Sam Fisher wearing Venom sneaking suit.<br/>This mod is a test so there may be some stuff that looks off ,because I'm a noob with modding",
+		"long_desc": "Sam Fisher from Ghost Recon Wildlands <br/>Replacing the parasite suit with Sam Fisher wearing Venom sneaking suit.<br/>This mod is a test so there may be some stuff that looks off ,because I'm a noob with modding"
+	},
+	{
+		"title": "Modder's Heaven idroid",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/1012430557902278746/unknown.png",
+		"author": "Hunari",
+		"date": "2022-08-25",
+		"download": "https://drive.google.com/file/d/1-FI0G_k74RXIdSMyeugaM05isJL2a4q8/view?usp=sharing",
+		"short_desc": "MH themed idroid because why not",
+		"long_desc": "MH themed idroid because why not"
+	},
+	{
+		"title": "E2's Project",
+		"image": "https://cdn.discordapp.com/attachments/364178018723168256/1016011028330463355/IMG_20220904_224255.jpg",
+		"author": "E2",
+		"date": "2022-09-04",
+		"download": "https://drive.google.com/file/d/1J1U-x3-hCxzMoRU0sJlwwcn9RmEueETv/view?usp=sharing",
+		"short_desc": "A Test for someone who likes modern warfare vibe.",
+		"long_desc": "A Test for someone who likes modern warfare vibe.<br/>Replaces Sneaking Suit."
 	}
 ]

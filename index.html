@@ -23,7 +23,31 @@
 			})
 			.done(function(){
 				search();
+				getModFromURL();
 			});
+			
+			function copyLinkToClipboard(idx)
+			{
+				navigator.clipboard.writeText(window.location.hostname + "?id=" + idx);
+			}
+			
+			function getModFromURL()
+			{
+				let urlParams = new URLSearchParams(window.location.search);
+				
+				if(urlParams.has("id"))
+				{
+					let param = urlParams.get("id");
+					console.log(param);
+					
+					setModalData(param);
+					$("#staticBackdrop").modal("toggle");
+				}
+				else
+				{
+					console.log("No Params");
+				}
+			}
 			
 			function setModalData(idx)
 			{
@@ -34,6 +58,7 @@
 				"<div>" + modList[idx].long_desc + "</div>");
 				$("#id-modal-footer").empty();
 				$("#id-modal-footer").append("<button type=\"button\" class=\"btn btn-outline-secondary\" data-bs-dismiss=\"modal\">Close</button>" +
+				"<button type=\"button\" class=\"btn btn-outline-primary\" onClick=\"copyLinkToClipboard(" + idx + ")\">Copy Link to this Mod</button>" +
 				"<a href=\"" + modList[idx].download + "\"><button id=\"id-modal-download\" type=\"button\" class=\"btn btn-outline-success\">Download</button></a>");
 			}
 			
@@ -50,25 +75,25 @@
 						case "0":
 							if(modList[i].title.toLowerCase().includes(searchTerm.toLowerCase()))
 							{
-								results.push(modList[i])
+								results.push(modList[i]);
 							}
 							break;
 						case "1":
 							if(modList[i].author.toLowerCase().includes(searchTerm.toLowerCase()))
 							{
-								results.push(modList[i])
+								results.push(modList[i]);
 							}
 							break;
 						case "2":
 							if(modList[i].short_desc.toLowerCase().includes(searchTerm.toLowerCase()))
 							{
-								results.push(modList[i])
+								results.push(modList[i]);
 							}
 							break;
 						case "3":
 							if(modList[i].long_desc.toLowerCase().includes(searchTerm.toLowerCase()))
 							{
-								results.push(modList[i])
+								results.push(modList[i]);
 							}
 							break;
 					}

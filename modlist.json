@@ -529,5 +529,15 @@
 		"download": "https://drive.google.com/file/d/11F1-oeL7Mn019EHD9G9Ezmbz_FmQ8tto/view?usp=share_link",
 		"short_desc": "Applies an assortment of features relating to the 1995 film, GoldenEye.",
 		"long_desc": "<image src=\"https://cdn.discordapp.com/attachments/364178018723168256/1047763991776202803/Bond_eye_settings.PNG\" style=\"width:100%;\"/>*Replaces avatar with Pierce Brosnan<br/>*Replaces AM D114 LB with Walther PPK<br/>*Replaces planted C4 with remote mine<br/>*Replaces game title with logo sourced from the 1997 game adaptation<br/>*Replaces sortie prep music with 'The Goldeneye Overture Pt. II.<br/><br/>For the face to appear, you will have to set hair type to no.2, and eye shape to no.1. I find that the above eye settings work best, but you're free to adjust them as you wish."
+	},
+	{
+	
+		"title": "Lara Croft PS1 Version",
+		"image": "https://i.imgur.com/F21c4ED.png",
+		"author": "Evan Taljaard",
+		"date": "2023-06-04",
+		"download": "https://drive.google.com/file/d/1Aw9mRoThccA7IyiFATJcmoVlj5Z8nRYv/view?usp=drive_link",
+		"short_desc": "Lara Croft from the ps1 super low poly model",
+		"long_desc": "Lara Croft from the ps1 super low poly model<br/><br/>it replaces the MGS low poly snake"
 	}
 ]
